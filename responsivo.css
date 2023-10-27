@@ -1,0 +1,263 @@
+@media (max-width: 999px) {
+    .campoBuscar h1 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .campoBuscar div input {
+        width: 100%;
+    }
+}
+
+
+
+
+@media (max-width: 800px) {
+    .menu {
+        margin-left: -3%;
+    }
+}
+
+
+
+
+
+
+/* Responsivo SmartPhone 320 a 600 */
+
+@media (max-width: 600px) {
+
+    /* Campo Header */
+
+    .user2 {
+        display: none;
+    }
+
+    .user {
+        display: flex;
+        justify-content: center;
+    }
+
+    .areaFechar {
+        display: flex;
+        justify-content: flex-end;
+        margin: 15px 30px;
+        z-index: 10;
+    }
+
+    .menu {
+        background-color: rgba(0, 0, 0, 0.514);
+        height: 100%;
+        position: fixed;
+        z-index: 10;
+        width: 50%;
+        max-width: 300px;
+        top: 0;
+        margin: 0;
+        right: -300px;
+        transition: right 0.5s ease-out;
+        flex-direction: column;
+    }
+
+    .user img {
+        width: 70%;
+    }
+
+    .menu ul li a {
+        font-size: 25px;
+        font-weight: bold;
+        color: #f7c120;
+    }
+
+    .menuMobile .menu {
+        right: 0px;
+    }
+
+
+    .abrirMenu {
+        background: url(./img/menu-aberto.png);
+        background-size: cover;
+        padding: 20px;
+        border: 0;
+        display: block;
+    }
+
+    .fecharMenu {
+        background: url(./img/fechar-menu.png);
+        background-size: cover;
+        padding: 20px;
+        border: 0;
+        display: block;
+        width: 0%;
+        padding: 10%;
+        margin-top: 4%;
+    }
+
+
+    .header {
+        padding: 30px;
+    }
+
+    .menu ul li:nth-child(2) {
+        margin: 0px 0px;
+    }
+
+    .menu ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .menu ul li:nth-child(1) {
+        margin-top: 20%;
+        margin-bottom: 50px;
+    }
+
+    .menu ul li:nth-child(2) {
+        margin-bottom: 50px;
+    }
+
+    .menu ul li:nth-child(3) {
+        margin-bottom: 50px;
+    }
+
+    .menu ul li {
+        margin-bottom: 50px;
+    }
+
+    /* Fim Campo Header */
+
+    /* Campo busca */
+
+    .campoBuscar {
+        padding: 120px 0px;
+    }
+
+    .campoBuscar h1 {
+        width: 50%;
+    }
+
+    .campoBuscar div input {
+        width: 92%;
+    }
+
+    /* Fim Campo Busca */
+
+    /* Campo Como Funciona */
+
+    .estruturaFunciona {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .instrucao {
+        width: 55%;
+    }
+
+    /* Fim Campo Como Funciona */
+
+    /* Campo Produtos */
+    .promocoesEstrutura {
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+    }
+
+    .produtos h3 {
+        display: none;
+    }
+
+    .cardPromocoes {
+        max-width: 47%;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .promocoes button {
+        width: 100%;
+    }
+
+    .cardPromocoes div {
+        width: 100%;
+    }
+
+    /* Fim Campo Produtos */
+
+    /* Campo Aviso */
+    .avisos {
+        display: none !important;
+    }
+
+    .proibido img {
+        width: 100%;
+    }
+
+    /* Fim Campo Aviso */
+
+    /* Campo Footer */
+    .centralizar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .fundoPagamento {
+        margin: 30px 0px;
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .estruturaPagamento img {
+        width: 100%;
+    }
+
+    .horarios {
+        max-width: 350px;
+        width: 300%;
+        margin-top: 30px;
+    }
+
+    .horarios h2 {
+        font-size: 19px;
+        
+    }
+
+    .local {
+        font-size: 1.3em;
+    }
+
+    .todoContato div {
+
+        width: 97%;
+    }
+    .todoContato div {
+        padding: 19px 8px 20px 16px;
+    }
+
+
+    /* Fim Campo Footer */
+}
+
+@media (max-width: 479px) {
+    .produtos a img {
+        width: 50%;
+    }
+
+    .slick-slide img {
+        display: block;
+        margin-left: 130px;
+    }
+
+    .produtos h3 {
+        display: initial;
+        text-align: center;
+        margin-right: -30px;
+        margin-top: 10px;
+    }
+
+    .produtos a {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
