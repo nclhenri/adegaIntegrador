@@ -169,13 +169,14 @@
     }
 
     .cardPromocoes {
-        max-width: 85%;
+        max-width: 54%;
         width: 100%;
         margin-bottom: 20px;
     }
 
     .promocoes button {
-        width: 100%;
+        width: 70%;
+        padding: 15px;
     }
 
     .cardPromocoes div {
@@ -235,7 +236,9 @@
     .todoContato div {
         padding: 20px 8px 20px 20px;
     }
-
+    footer section {
+        padding: 9px;
+    }
 
     /* Fim Campo Footer */
 }

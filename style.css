@@ -95,7 +95,7 @@ header {
     justify-content: center;
     color: #F2E852;
     border: 3px solid #F2E852;
-    width: 40%;
+    width: 47%;
     margin: 0 auto;
     border-radius: 5px;
     padding: 10px;
@@ -420,11 +420,11 @@ footer section div {
 
 .maps iframe {
     width: 100%;
-    padding: 1%;
+    padding: 1.5%;
 }
 
 .maps div {
-    border: solid 3px #000000;
+    border: solid 5px #F2C84B;
 }
 
 
