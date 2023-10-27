@@ -169,7 +169,7 @@
     }
 
     .cardPromocoes {
-        max-width: 47%;
+        max-width: 85%;
         width: 100%;
         margin-bottom: 20px;
     }
@@ -185,12 +185,13 @@
     /* Fim Campo Produtos */
 
     /* Campo Aviso */
-    .avisos {
-        display: none !important;
+    .avisos h2 {
+       text-align: center;
+       font-size: 15px;
     }
 
     .proibido img {
-        width: 100%;
+        width: 25%;
     }
 
     /* Fim Campo Aviso */
@@ -220,7 +221,7 @@
     .horarios h2 {
         font-size: 19px;
 
-        
+
     }
 
     .local {
@@ -232,7 +233,7 @@
         width: 97%;
     }
     .todoContato div {
-        padding: 19px 8px 20px 16px;
+        padding: 20px 8px 20px 20px;
     }
 
 

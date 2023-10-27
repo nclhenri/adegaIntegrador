@@ -20,8 +20,9 @@
                     <li>
                         <a href="">Sobre </a>
                     </li>
+
                     <li>
-                        <a href="contato.php">Produtos</a>
+                        <a href="#" class="PRT">Produtos</a>
                     </li>
                     <li>
                         <a href="contato.php">Contato</a>
