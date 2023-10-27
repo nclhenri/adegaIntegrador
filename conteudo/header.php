@@ -18,7 +18,7 @@
                         <a href="index.php">Home</a>
                     </li>
                     <li>
-                        <a href="">Sobree </a>
+                        <a href="">Sobre</a>
                     </li>
 
                     <li>
