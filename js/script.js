@@ -67,11 +67,14 @@ $(function(){
     hideClass: {
       popup: 'animate__animated animate__fadeOutUp'},
 
-    title: 'Você é maior que 18 anos ?',
+    html: '<img src="./img/logo.png" alt="">   ',
+    title: 'Você é maior de 18 anos?',
+    text: '',
     confirmButtonText: 'Sim',
     cancelButtonText: 'Não',
     showCancelButton: true,
     showCloseButton: false,
+    // text : 'É necessário ter 18 anos ou mais para poder acessar e comprar nossos produtos.',
     
     }
 
