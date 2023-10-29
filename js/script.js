@@ -57,3 +57,31 @@ document.querySelector(".abrirMenu").onclick = function () {
 document.querySelector(".fecharMenu").onclick = function () {
   document.documentElement.classList.remove("menuMobile");
 }
+
+$(function(){
+  Swal.fire({
+    title: 'Custom animation with Animate.css',
+    showClass: {
+      popup: 'animate__animated animate__fadeInDown'},
+
+    hideClass: {
+      popup: 'animate__animated animate__fadeOutUp'},
+
+    title: 'Você é maior que 18 anos ?',
+    confirmButtonText: 'Sim',
+    cancelButtonText: 'Não',
+    showCancelButton: true,
+    showCloseButton: false,
+    
+    }
+
+
+  ).then((result) => {
+    if(result.isDismissed){
+      console.log (result)
+
+    }
+  })
+
+});
+

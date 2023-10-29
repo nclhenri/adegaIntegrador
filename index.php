@@ -15,6 +15,7 @@
     <link rel="stylesheet" type="text/css" href="./css/slick.css" />
     <link rel="stylesheet" type="text/css" href="./css/slick-theme.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="./css/sweetalert2">
 
 
     <link rel="stylesheet" href="style.css">
@@ -23,6 +24,7 @@
 </head>
 
 <body>
+
     <?php require_once('conteudo/header.php'); ?>
 
     <main>
@@ -195,6 +197,7 @@
 
     <?php require_once('conteudo/rodape.php'); ?>
 
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.8.0/dist/sweetalert2.all.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
     <script src="./js/slick.min.js"></script>
     <script src="js/wow.min.js"></script>
