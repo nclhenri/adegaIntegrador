@@ -74,9 +74,9 @@ $(function(){
 
   ).then((result) => {
     if(result.isDismissed){
-      window.location.href = "http://www.devmedia.com.br/";
+      window.location.href = "";
 
-      
+
     }
   })
 
