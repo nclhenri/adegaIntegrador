@@ -60,28 +60,21 @@ document.querySelector(".fecharMenu").onclick = function () {
 
 $(function(){
   Swal.fire({
-    title: 'Custom animation with Animate.css',
-    showClass: {
-      popup: 'animate__animated animate__fadeInDown'},
-
-    hideClass: {
-      popup: 'animate__animated animate__fadeOutUp'},
-
-    html: '<img src="./img/logo.png" alt="">   ',
-    title: 'Você é maior de 18 anos?',
-    text: '',
+    
+    title: '<img src="./img/logo.png" alt="">',
+    text: 'Você é maior que 18 anos ?',
+    showClass: {popup: 'animate__animated animate__fadeInDown'},
+    hideClass: {popup: 'animate__animated animate__fadeOutUp'},
     confirmButtonText: 'Sim',
     cancelButtonText: 'Não',
     showCancelButton: true,
-    showCloseButton: false,
-    // text : 'É necessário ter 18 anos ou mais para poder acessar e comprar nossos produtos.',
-    
+    showCloseButton: false
     }
 
 
   ).then((result) => {
     if(result.isDismissed){
-      console.log (result)
+      window.location.href = "http://www.devmedia.com.br/";
 
     }
   })

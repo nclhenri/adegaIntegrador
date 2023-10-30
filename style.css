@@ -96,7 +96,7 @@ header {
     justify-content: center;
     color: #F2E852;
     border: 3px solid #F2E852;
-    width: 47%;
+    width: 54%;
     margin: 0 auto;
     border-radius: 5px;
     padding: 10px;
@@ -555,8 +555,6 @@ div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
 }
 
 div:where(.swal2-container).swal2-center>.swal2-popup {
-
-
     padding: 29px !important;
 }
 
@@ -567,10 +565,15 @@ element.style {
 div:where(.swal2-container) h2:where(.swal2-title) {
     color: #000000 !important;
 }
+
 div:where(.swal2-container).swal2-center>.swal2-popup {
- 
+
     border: 6px solid #F2C84B;
     ;
+}
+div:where(.swal2-container) .swal2-html-container {
+
+    font-size: 1.7em !important;
 }
 
 /* FIm MAIOR DE IDADE */
