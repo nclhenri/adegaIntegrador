@@ -1,12 +1,3 @@
-// $(document).ready(function(){
-//     $('.produtosCategorias').slick({
-//         slidesToShow: 6,
-//         dots: true,
-//         slidesToScroll: 1,
-//         autoplay: true,
-//         autoplaySpeed: 2000,
-//     });
-//   });
 
   $('.produtosCategorias').slick({
     dots: true,
@@ -60,19 +51,18 @@ document.querySelector(".fecharMenu").onclick = function () {
 
 $(function(){
   Swal.fire({
-    
-    title: '<img src="./img/logo.png" alt="">',
-    text: 'Você é maior que 18 anos ?',
+    title: '<img src="./img/logo.png">',
+    text: 'Você é maior de 18 anos?',
     showClass: {popup: 'animate__animated animate__fadeInDown'},
     hideClass: {popup: 'animate__animated animate__fadeOutUp'},
     confirmButtonText: 'Sim',
     cancelButtonText: 'Não',
     showCancelButton: true,
-    showCloseButton: false
-    }
-
-
-  ).then((result) => {
+    showCloseButton: false,
+    
+    })
+    
+    .then((result) => {
     if(result.isDismissed){
       window.location.href = "";
 

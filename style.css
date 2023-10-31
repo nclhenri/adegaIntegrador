@@ -555,7 +555,7 @@ div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
 }
 
 div:where(.swal2-container).swal2-center>.swal2-popup {
-    padding: 29px !important;
+    padding: 28px !important;
 }
 
 element.style {
@@ -574,6 +574,18 @@ div:where(.swal2-container).swal2-center>.swal2-popup {
 div:where(.swal2-container) .swal2-html-container {
 
     font-size: 1.7em !important;
+    margin-bottom: 25px !important;
+    font-weight: bold !important;
 }
 
 /* FIm MAIOR DE IDADE */
+
+.contatoN h4 {
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 1.3em;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+
