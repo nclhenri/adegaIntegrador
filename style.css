@@ -123,7 +123,7 @@ header {
 
 .campoBuscar div input {
     width: 40%;
-    padding: 10px;
+    padding: 10px 14px 10px 1px;
     border-radius: 10px;
     text-align: center;
 }
@@ -571,6 +571,7 @@ div:where(.swal2-container).swal2-center>.swal2-popup {
     border: 6px solid #F2C84B;
     ;
 }
+
 div:where(.swal2-container) .swal2-html-container {
 
     font-size: 1.7em !important;
@@ -589,3 +590,43 @@ div:where(.swal2-container) .swal2-html-container {
 }
 
 
+/* pagina sobre */
+
+.campoBuscar2 {
+    width: 100%;
+    background-color: black;
+    padding: 90px;
+    background: url(./img/bannertaligado2.png);
+    display: flex;
+
+}
+
+.campoBuscar2 h1 {
+    display: flex;
+    justify-content: center;
+    color: #F2E852;
+    border: 3px solid #F2E852;
+    width: 43%;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-weight: bold;
+    height: 14%;
+    margin-right: 9%;
+    margin-left: 7%;
+    text-align: center;
+}
+
+.input1 input {
+    width: 240%;
+    padding: 11px;
+    border: 2px solid black;
+    border-radius: 10px;
+   
+  
+}
+
+
+
+
+
+/* fim pagina sobre */

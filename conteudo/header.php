@@ -15,14 +15,14 @@
 
                 <ul>
                     <li>
-                        <a href="index.php">Home</a>
+                        <a href="home.php">Home</a>
                     </li>
                     <li>
-                        <a href="">Sobre</a>
+                        <a href="sobre.php">Sobre</a>
                     </li>
 
                     <li>
-                        <a href="#" class="PRT">Produtos</a>
+                        <a href="produto.pho" class="PRT">Produtos</a>
                     </li>
                     <li>
                         <a href="contato.php">Contato</a>
