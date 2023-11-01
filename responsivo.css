@@ -24,6 +24,38 @@
 
 @media (max-width: 600px) {
 
+    /* PAGINA SOBRE */
+    .campoBuscar2 {
+        flex-direction: column;
+
+    }
+
+    .campoBuscar2 h1 {
+        width: 100%;
+        justify-content: center;
+        margin: 0;
+    }
+
+    .input1 input {
+        width: 100%;
+        margin-top: 15%;
+    }
+
+    .title h1 {
+        display: flex;
+        justify-content: left;
+        margin-right: 100%;
+        width: 64%;
+
+    }
+
+    .proOUTRO {
+        margin: 0;
+    }
+
+
+    /* FIM PAGINA SOBRE */
+
     /* Campo Header */
 
     .user2 {
@@ -132,11 +164,12 @@
     }
 
     .campoBuscar h1 {
-        width: 50%;
+        width: 63%;
     }
 
     .campoBuscar div input {
-        width: 92%;
+        width: 65%;
+        padding: 11px;
     }
 
     /* Fim Campo Busca */
@@ -184,8 +217,8 @@
 
     /* Campo Aviso */
     .avisos h2 {
-       text-align: center;
-       font-size: 15px;
+        text-align: center;
+        font-size: 15px;
     }
 
     .proibido img {
@@ -230,9 +263,11 @@
 
         width: 97%;
     }
+
     .todoContato div {
         padding: 20px 8px 20px 20px;
     }
+
     footer section {
         padding: 9px;
     }

@@ -12,12 +12,6 @@
                     <li><a href="https://ig.me/m/@adegadocleitinho"><img src="./img/insta40.png" alt=""></a></li>
                     <li><a href="https://wa.me/5511952752175?text=aprecie+sua+bebida+conosco"><img src="./img/whats40.png" alt=""></a></li>
                 </ul>
-
-                <div class="horarios">
-                    <h2>Horário de Funcionamento:</h2>
-                    <h2>Seg - Qui das 12h às 19h</h2>
-                    <h2>Sexta - Dom das 18h às 6h</h2>
-                </div>
             </div>
 
             <div class="estruturaPagamento wow animate__animated animate__fadeInUp">

@@ -346,6 +346,7 @@ footer section {
     flex-direction: column;
     width: 30%;
     align-items: center;
+    margin-top: 35px;
 }
 
 .contatos a {
@@ -366,17 +367,6 @@ footer section {
     margin-top: 15px;
 }
 
-.horarios h2 {
-    color: #F2C84B;
-    font-size: 22px;
-}
-
-.horarios {
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    color: #F2C84B;
-}
 
 footer section div {
     display: flex;
@@ -385,20 +375,24 @@ footer section div {
 .centralizar {
     display: flex;
     justify-content: space-around;
+    padding: 20px;
 }
 
 .estruturaPagamento {
     display: flex;
     flex-direction: column;
+
 }
 
 .fundoPagamento {
     background-color: #F2C84B;
     border-radius: 20px;
+    margin-top: 25px;
 }
 
 .estruturaPagamento img {
     margin-bottom: 15px;
+
 }
 
 .local {
@@ -427,10 +421,6 @@ footer section div {
 .maps div {
     border: solid 5px #F2C84B;
 }
-
-
-
-
 
 
 .corTudo {
@@ -595,7 +585,7 @@ div:where(.swal2-container) .swal2-html-container {
 .campoBuscar2 {
     width: 100%;
     background-color: black;
-    padding: 90px;
+    padding: 200px 90px;
     background: url(./img/bannertaligado2.png);
     display: flex;
 
@@ -606,23 +596,85 @@ div:where(.swal2-container) .swal2-html-container {
     justify-content: center;
     color: #F2E852;
     border: 3px solid #F2E852;
-    width: 43%;
+    width: 42%;
     border-radius: 5px;
-    padding: 5px 10px;
+    padding: 5px 10px 5px 0px;
     font-weight: bold;
     height: 14%;
-    margin-right: 9%;
+    margin-right: 7%;
     margin-left: 7%;
     text-align: center;
 }
 
 .input1 input {
-    width: 240%;
+    width: 260%;
     padding: 11px;
     border: 2px solid black;
     border-radius: 10px;
-   
-  
+
+
+}
+
+
+
+
+.title h1 {
+    color: #fff243;
+    margin: 25px;
+    font-size: 2.2em;
+
+}
+
+.title p {
+    font-size: 1.4em;
+    margin: 0px 35px 40px 25px;
+
+}
+
+.proOUTRO {
+    display: flex;
+    justify-content: end;
+    margin-right: 17% !important;
+}
+
+.title1 h1 {
+    color: #fff243;
+    margin-bottom: 25px;
+    font-size: 2.2em;
+
+}
+
+.title1 p {
+    font-size: 1.7em;
+    margin: 0px 30px 55px 25px;
+
+}
+
+
+
+.title h2 {
+    margin: 25px;
+    font-size: 1.7em;
+    font-weight: bold;
+
+}
+
+.title1 h2 {
+    margin: 25px;
+    font-size: 1.7em;
+    font-weight: bold;
+}
+
+.maiorde18  {
+    margin-top: 100px;
+
+}
+.maiorde18 h2 {
+    font-size: 1.8em;
+    margin-bottom: 40px !important;
+}
+.privacidades p{
+    margin-bottom: 90px !important;
 }
 
 
