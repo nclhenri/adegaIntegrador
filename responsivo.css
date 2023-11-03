@@ -272,23 +272,28 @@
         padding: 9px;
     }
 
+
+
+
+
     /* Fim Campo Footer */
 }
 
 @media (max-width: 479px) {
+
     .produtos a img {
-        width: 50%;
+        width: 86%;
     }
 
     .slick-slide img {
         display: block;
-        margin-left: 130px;
+        margin-left: 100px;
     }
 
     .produtos h3 {
         display: initial;
         text-align: center;
-        margin-right: -30px;
+        margin-left: 100px;
         margin-top: 10px;
     }
 
@@ -297,4 +302,13 @@
         flex-direction: column;
         justify-content: center;
     }
+}
+
+@media (max-width: 320px) {
+
+    div:where(.swal2-container).swal2-center>.swal2-popup {
+        padding: 0px !important;
+        padding-bottom: 10px !important;
+    }
+
 }

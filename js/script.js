@@ -18,7 +18,7 @@
         }
       },
       {
-        breakpoint: 600,
+        breakpoint: 601,
         settings: {
           dots: true,
           arrows: false,
@@ -31,7 +31,7 @@
         settings: {
           dots: true,
           arrows: false,
-          slidesToShow: 1,
+          slidesToShow: 2,
           slidesToScroll: 3
         }
       }

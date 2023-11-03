@@ -98,7 +98,7 @@
             <!-- LOCAL E ATENDIMENTO -->
 
             <div class="title1 wow animate__animated animate__fadeInUp">
-                <h1 class="proOUTRO"> Local e Atendimento</h1>
+                <h1 class="proOUTRO wow animate__animated animate__fadeInUp"> Local e Atendimento</h1>
                 <p> <strong>Local do estabelecimento 📍 :</strong> R. Manoel Preto nº100 , Itaquá - SP <strong>Cep :</strong>
                     08593-130 </p>
                 <p> <strong>Horarío do atendimento 🕒 : </strong> Seg a Sex dás 10h ás 22h Sab a Dom 10h ás 00h</p>
@@ -109,7 +109,7 @@
 
             <div class="title wow animate__animated animate__fadeInUp">
                 <h1>Política de Privacidade e Segurança</h1>
-                <div class="privacidades" >
+                <div class="privacidades wow animate__animated animate__fadeInUp" >
                     <p> A adega Cleitinho valoriza a sua privacidade e se empenha em proteger suas informações
                         pessoais. Esta política de privacidade destina-se a explicar como coletamos, usamos, divulgamos
                         e
@@ -150,7 +150,7 @@
                 <p>Se tiver dúvidas ou preocupações sobre esta política de privacidade, entre em contato conosco em
                     [Endereço de E-mail de Contato].</p>
 
-                <div class="maiorde18">
+                <div class="maiorde18 wow animate__animated animate__fadeInUp">
                     <h2>A restrição de acesso a sites de bebidas para maiores de 18 anos tem a ver com
                         questões legais e de
                         responsabilidade social</h2>
