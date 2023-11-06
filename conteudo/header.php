@@ -20,10 +20,19 @@
                     <li>
                         <a href="sobre.php">Sobre</a>
                     </li>
+                    <div>
+                        <li class="subMenu"><a href="produto.php" class="PRT">Produtos</a>
+                            <ul>
+                                <li><a href="#">Gelos</a></li>
+                                <li><a href="#">Sucos</a></li>
+                                <li><a href="#">Vinhos</a></li>
+                                <li><a href="#">Alcoólicas</a></li>
+                                <li><a href="#">Cervejas</a></li>
+                                <li><a href="#">Energéticos</a></li>
+                            </ul>
+                        </li>
+                    </div>
 
-                    <li>
-                        <a href="produto.pho" class="PRT">Produtos</a>
-                    </li>
                     <li>
                         <a href="contato.php">Contato</a>
                     </li>

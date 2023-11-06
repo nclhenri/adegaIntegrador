@@ -24,6 +24,29 @@
 
 @media (max-width: 600px) {
 
+
+    .PRT {
+        margin-right: -1px;
+    }
+
+    .input2 input {
+        width: 213%;
+        margin-left: -34%;
+    }
+
+    .carro img {
+        width: 55%;
+        margin-top: -25px;
+        margin-left: 140%;
+    }
+
+
+
+
+    .subMenu ul li {
+        display: none;
+    }
+
     /* PAGINA SOBRE */
     .campoBuscar2 {
         flex-direction: column;
