@@ -614,7 +614,7 @@ div:where(.swal2-container) .swal2-html-container {
 .campoBuscar2 {
     width: 100%;
     background-color: black;
-    padding: 200px 90px;
+    padding:215px 90px 100px;
     background: url(./img/bannertaligado2.png);
     display: flex;
 
@@ -726,16 +726,142 @@ div:where(.swal2-container) .swal2-html-container {
 .campoBuscar3 {
     width: 100%;
     background-color: black;
-    padding: 100px 90px;
+    padding: 70px 90px;
     background: url(./img/bannertaligado2.png);
     display: flex;
     justify-content: space-between;
 }
 .carro img {
-    width: 80%;
+    width: 45%;
    margin-top: -35px;
 
 }
 .carro {
-    margin-right: 45px;
+    margin-right: 35px;
+   
 }
+
+.carro div {
+    display: flex;
+}
+.carro div h2 {
+    color: #ffffff;
+    font-size: 2.9em;
+    width: 52%;
+   
+} 
+.duplo {
+    display: flex;
+}
+
+aside {
+
+    background-color: #000000;
+    width: 17%;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 30px;
+    justify-content: space-evenly;
+    align-items: center;
+ 
+}
+
+
+
+aside a {
+
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff243;
+    font-size: 30px;
+    margin-bottom: 50px;
+
+}
+
+.menuAtivo {
+    color: #fff2c4;
+
+}
+.box {
+    font-size: 1.9em;
+    width: 100%;
+}
+.cardEnergia {
+    width: 32%;
+    background: #ffffff;
+    padding: 30px;
+    transition: 0.3s ease;
+    text-align: center;
+    margin-right: 2%;
+}
+.cardEnergia:hover {
+    box-shadow: 0 0 10px #2c2b2b;
+}
+
+.fundoComprar1 {
+    background-color: #32ba46;
+    height: 30px !important;
+    margin-bottom: 16px;
+
+}
+.fundoComprar1:hover {
+    background-color: #60c46f;
+    font-size: 1.1em;
+
+}
+.fundoComprar1 a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.cardEnergia div {
+    width: 240px;
+    height: 250px;
+    /* background-color: white; */
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center
+}
+
+.promocoesEstrutura1 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4%;
+    margin-left: 1%;
+}
+
+.cardEnergia h4 {
+    margin: 15px;
+    color: black;
+}
+
+.cardEnergia h3 {
+    margin-top: 15px;
+    color: black;
+}
+.pagination {
+
+    display: flex;
+    padding-left: 0;
+    list-style: none;
+    justify-content: center;
+    margin-top: 4%;
+}
+.page-item a {
+    background: #000000;
+    padding: 10px 20px;
+    color: #F2C84B;
+    font-size: .6em;
+}
+
+.page-item a:hover {
+    color: #000000;
+    background: #F2C84B;
+    transition: 0.5s ease;
+   
+
+}
+

@@ -36,73 +36,73 @@
 
             <div class="produtosCategorias">
                 <div class="produtos">
-                    <a href="#">
+                    <a href="produto.php">
                         <img src="./img/energeticos.png" alt="">
                         <h3>Energéticos</h3>
                     </a>
                 </div>
                 <div class="produtos">
-                    <a href="#">
+                    <a href="produto.php">
                         <img src="./img/sucos.png" alt="">
                         <h3>Sucos</h3>
                     </a>
                 </div>
                 <div class="produtos">
-                    <a href="#">
+                    <a href="produto.php">
                         <img src="./img/gelos.png" alt="">
                         <h3>Gelos</h3>
                     </a>
                 </div>
                 <div class="produtos">
-                    <a href="#">
+                    <a href="produto.php">
                         <img src="./img/alcolica.png" alt="">
                         <h3>Alcoólicas</h3>
                     </a>
                 </div>
                 <div class="produtos">
-                    <a href="#">
+                    <a href="produto.php">
                         <img src="./img/cervejas.png" alt="">
                         <h3>Cervejas</h3>
                     </a>
                 </div>
                 <div class="produtos">
-                    <a href="#">
+                    <a href="produto.php">
                         <img src="./img/vino.png" alt="">
                         <h3>Vinhos</h3>
                     </a>
                 </div>
                 <div class="produtos">
-                    <a href="#">
+                    <a href="produto.php">
                         <img src="./img/energeticos.png" alt="">
                         <h3>Energéticos</h3>
                     </a>
                 </div>
                 <div class="produtos">
-                    <a href="#">
+                    <a href="produto.php">
                         <img src="./img/sucos.png" alt="">
                         <h3>Sucos</h3>
                     </a>
                 </div>
                 <div class="produtos">
-                    <a href="#">
+                    <a href="produto.php">
                         <img src="./img/gelos.png" alt="">
                         <h3>Gelos</h3>
                     </a>
                 </div>
                 <div class="produtos">
-                    <a href="#">
+                    <a href="produto.php">
                         <img src="./img/alcolica.png" alt="">
                         <h3>Alcoólicas</h3>
                     </a>
                 </div>
                 <div class="produtos">
-                    <a href="#">
+                    <a href="produto.php">
                         <img src="./img/cervejas.png" alt="">
                         <h3>Cervejas</h3>
                     </a>
                 </div>
                 <div class="produtos">
-                    <a href="#">
+                    <a href="produto.php">
                         <img src="./img/vino.png" alt="">
                         <h3>Vinhos</h3>
                     </a>
@@ -153,7 +153,7 @@
                     <h3>RedBull</h3>
                     <h4>R$ 7,12</h4>
                     <div class="fundoComprar">
-                        <a href="">Comprar</a>
+                        <a href="produto.php">Comprar</a>
                     </div>
                 </div>
                 <div class="cardPromocoes">
@@ -163,7 +163,7 @@
                     <h3>Guaraviton</h3>
                     <h4>R$ 2,99</h4>
                     <div class="fundoComprar">
-                        <a href="">Comprar</a>
+                        <a href="produto.php">Comprar</a>
                     </div>
                 </div>
                 <div class="cardPromocoes">
@@ -173,7 +173,7 @@
                     <h3>Vinho Pérgola</h3>
                     <h4>R$ 23,40</h4>
                     <div class="fundoComprar">
-                        <a href="">Comprar</a>
+                        <a href="produto.php">Comprar</a>
                     </div>
                 </div>
                 <div class="cardPromocoes">
@@ -183,12 +183,12 @@
                     <h3>Whiskey Jack Daniels</h3>
                     <h4>R$ 139,17</h4>
                     <div class="fundoComprar">
-                        <a href="">Comprar</a>
+                        <a href="produto.php">Comprar</a>
                     </div>
                 </div>
             </div>
 
-            <button>Veja nossos produtos!</button>
+            <button> <a href="produto.php">Veja nossos produtos!</a></button>
         </section>
 
         <?php require_once('conteudo/proibido.php'); ?>

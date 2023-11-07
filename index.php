@@ -183,12 +183,12 @@
                     <h3>Whiskey Jack Daniels</h3>
                     <h4>R$ 139,17</h4>
                     <div class="fundoComprar">
-                        <a href="">Comprar</a>
+                        <a href="produto.php">Comprar</a>
                     </div>
                 </div>
             </div>
 
-            <button>Veja nossos produtos!</button>
+            <button> <a href="produto.php">Veja nossos produtos!</a></button>
         </section>
 
         <?php require_once('conteudo/proibido.php'); ?>

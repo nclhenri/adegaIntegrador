@@ -1,9 +1,8 @@
 <?php
+
 $pagina = @$_GET['p'];
 
-
 ?>
-
 
 <!DOCTYPE html>
 
@@ -68,21 +67,89 @@ $pagina = @$_GET['p'];
             </div>
         </header>
 
-
-
         <section class="campoBuscar3 ">
             <div class=" input2 wow animate__animated animate__fadeInUp">
                 <input type="text" placeholder="🔍     Tente procurar por: cerveja, vinho, whiskey, energético... ">
             </div>
-            <div  class="carro wow animate__animated animate__fadeInUp" >
-                <img src="./img/carrinho.png" alt="">
+            <div class="carro wow animate__animated animate__fadeInUp">
+                <div>
+                    <h2 class="text-center"> <span id="totalValue">$ 0,00</span></h2>
+                    <img src="./img/carrinho.png" alt="">
+                </div>
+
             </div>
 
         </section>
 
+        <main class="duplo" >
+            <aside>
+
+                <a href="produto.php?p=Energéticos" class="<?php echo (@$_GET['p'] == 'Energéticos') ? 'menuAtivo' : ''; ?>">Energéticos</a>
+
+                <a href="produto.php?p=Sucos" class="<?php echo (@$_GET['p'] == 'Sucos') ? 'menuAtivo' : ''; ?>">Sucos</a>
+
+                <a href="produto.php?p=Gelos" class="<?php echo (@$_GET['p'] == 'Gelos') ? 'menuAtivo' : ''; ?>">Gelos</a>
+
+                <a href="produto.php?p=Alcoólicas" class="<?php echo (@$_GET['p'] == 'Alcoólicas') ? 'menuAtivo' : ''; ?>">Alcoólicas</a>
+
+                <a href="produto.php?p=Cervejas" class="<?php echo (@$_GET['p'] == 'Cervejas') ? 'menuAtivo' : ''; ?>">Cervejas</a>
+
+                <a href="produto.php?p=Vinhos" class="<?php echo (@$_GET['p'] == 'Vinhos') ? 'menuAtivo' : ''; ?>">Vinhos</a>
+
+            </aside>
+
+            <div class="box">
+
+                <!-- CONTEÚDO DAS PÁGINAS -->
+
+                <?php
+
+                switch ($pagina) {
+
+                    case 'Energéticos':
+
+                        require_once('produtos/energeticos.php');
+
+                        break;
+
+                    case 'Sucos':
+
+                        echo 'PG Sucos';
+
+                        break;
 
 
+                    case 'Gelos':
+
+                        echo 'PG Gelos';
+
+                        break;
+
+                    case 'Alcoólicas':
+
+                        echo 'Alcoólicas';
+
+                        break;
+
+                    case 'Cervejas':
+
+                        echo 'PG Cervejas';
+
+                        break;
+
+                    case 'Vinhos':
+
+                        echo 'PG Vinhos';
+
+                        break;
+                }
+
+                ?>
+
+            </div>
         </main>
+
+
 
         <?php require_once('conteudo/rodape.php'); ?>
 
