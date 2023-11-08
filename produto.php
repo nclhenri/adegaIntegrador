@@ -47,7 +47,7 @@ $pagina = @$_GET['p'];
                             </li>
 
                             <li>
-                                <a href="produto.php" class="PRT">Produtos</a>
+                                <a href="produto.php?p=Cervejas" class="PRT">Produtos</a>
                             </li>
                             <li>
                                 <a href="contato.php">Contato</a>
@@ -81,24 +81,25 @@ $pagina = @$_GET['p'];
 
         </section>
 
-        <main class="duplo" >
+        <main class="duplo">
             <aside>
 
-                <a href="produto.php?p=Energéticos" class="<?php echo (@$_GET['p'] == 'Energéticos') ? 'menuAtivo' : ''; ?>">Energéticos</a>
+                <a href="produto.php?p=Cervejas"class="<?php echo (@$_GET['p'] == 'Cervejas') ? 'menuAtivo' : ''; ?>">Cervejas</a>
 
-                <a href="produto.php?p=Sucos" class="<?php echo (@$_GET['p'] == 'Sucos') ? 'menuAtivo' : ''; ?>">Sucos</a>
-
-                <a href="produto.php?p=Gelos" class="<?php echo (@$_GET['p'] == 'Gelos') ? 'menuAtivo' : ''; ?>">Gelos</a>
-
-                <a href="produto.php?p=Alcoólicas" class="<?php echo (@$_GET['p'] == 'Alcoólicas') ? 'menuAtivo' : ''; ?>">Alcoólicas</a>
-
-                <a href="produto.php?p=Cervejas" class="<?php echo (@$_GET['p'] == 'Cervejas') ? 'menuAtivo' : ''; ?>">Cervejas</a>
+                <a href="produto.php?p=Alcoólicas"class="<?php echo (@$_GET['p'] == 'Alcoólicas') ? 'menuAtivo' : ''; ?>">Alcoólicas</a>
 
                 <a href="produto.php?p=Vinhos" class="<?php echo (@$_GET['p'] == 'Vinhos') ? 'menuAtivo' : ''; ?>">Vinhos</a>
+
+                <a href="produto.php?p=Energéticos"class="<?php echo (@$_GET['p'] == 'Energéticos') ? 'menuAtivo' : ''; ?>">Energéticos</a>
+
+                <a href="produto.php?p=Sucos"class="<?php echo (@$_GET['p'] == 'Sucos') ? 'menuAtivo' : ''; ?>">Sucos</a>
+
+                <a href="produto.php?p=Gelos"class="<?php echo (@$_GET['p'] == 'Gelos') ? 'menuAtivo' : ''; ?>">Gelos</a>
 
             </aside>
 
             <div class="box">
+
 
                 <!-- CONTEÚDO DAS PÁGINAS -->
 
@@ -114,39 +115,40 @@ $pagina = @$_GET['p'];
 
                     case 'Sucos':
 
-                        echo 'PG Sucos';
+                        require_once('produtos/sucos.php');
 
                         break;
 
 
                     case 'Gelos':
 
-                        echo 'PG Gelos';
+                        require_once('produtos/gelos.php');
 
                         break;
 
                     case 'Alcoólicas':
 
-                        echo 'Alcoólicas';
+                        require_once('produtos/alcoolicas.php');
 
                         break;
 
                     case 'Cervejas':
 
-                        echo 'PG Cervejas';
+                        require_once('produtos/cervejas.php');
 
                         break;
 
                     case 'Vinhos':
 
-                        echo 'PG Vinhos';
+                        require_once('produtos/vinhos.php');
 
                         break;
                 }
 
                 ?>
-
             </div>
+
+
         </main>
 
 

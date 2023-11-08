@@ -116,7 +116,7 @@ header {
 .campoBuscar {
     width: 100%;
     background-color: black;
-    padding: 245px;
+    padding: 255px 245px 130px;
     background: url(./img/bannertaligado2.png);
 }
 
@@ -716,11 +716,11 @@ div:where(.swal2-container) .swal2-html-container {
 /* pagina produto*/
 
 .input2 input {
-    width: 450%;
+    width: 380%;
     padding: 13px;
     border: 2px solid black;
     border-radius: 10px;
-    margin-left: 50%;
+    margin-left: 80%;
 }
 
 .campoBuscar3 {
@@ -732,12 +732,12 @@ div:where(.swal2-container) .swal2-html-container {
     justify-content: space-between;
 }
 .carro img {
-    width: 45%;
+    width: 35%;
    margin-top: -35px;
 
 }
 .carro {
-    margin-right: 35px;
+    margin-right: 6%;
    
 }
 
@@ -783,10 +783,12 @@ aside a {
     color: #fff2c4;
 
 }
-.box {
+.box{
     font-size: 1.9em;
-    width: 100%;
+    width: 100%; 
+
 }
+
 .cardEnergia {
     width: 32%;
     background: #ffffff;
@@ -794,6 +796,7 @@ aside a {
     transition: 0.3s ease;
     text-align: center;
     margin-right: 2%;
+    margin-left: 30px;
 }
 .cardEnergia:hover {
     box-shadow: 0 0 10px #2c2b2b;

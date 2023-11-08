@@ -32,39 +32,7 @@
                     <a href="">Comprar</a>
                 </div>
             </div>
-            <div class="cardEnergia ">
-                <div>
-                    <img src="./img/energia2.png" alt="">
-                </div>
-
-                <h3>Monster - 269 ml</h3>
-                <h4>R$ 5,29 </h4>
-                <div class="fundoComprar">
-                    <a href="">Comprar</a>
-                </div>
-            </div>
-            <div class="cardEnergia ">
-                <div>
-                    <img src="./img/energia3.png" alt="">
-                </div>
-
-                <h3>Vibe - 2L</h3>
-                <h4>R$ 16,00</h4>
-                <div class="fundoComprar">
-                    <a href="">Comprar</a>
-                </div>
-            </div>
-            <div class="cardEnergia ">
-                <div>
-                    <img src="./img/energia4.png" alt="">
-                </div>
-
-                <h3>Baly - 2L</h3>
-                <h4>R$ 9,99 </h4>
-                <div class="fundoComprar">
-                    <a href="">Comprar</a>
-                </div>
-            </div>
+         
         </div>
         <nav aria-label="Page navigation example">
             <ul class="pagination">

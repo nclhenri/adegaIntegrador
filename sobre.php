@@ -39,20 +39,22 @@
                         </li>
 
                         <div>
-                            <li class="subMenu"><a href="produto.php" class="PRT">Produtos</a>
+                            <li class="subMenu"><a href="produto.php?p=Cervejas" class="PRT">Produtos</a>
                                 <ul>
-                                    <li><a href="#">Gelos</a></li>
-                                    <li><a href="#">Sucos</a></li>
-                                    <li><a href="#">Vinhos</a></li>
-                                    <li><a href="#">Alcoólicas</a></li>
-                                    <li><a href="#">Cervejas</a></li>
-                                    <li><a href="#">Energéticos</a></li>
+                                    <li><a href="produto.php?p=Gelos">Gelos</a></li>
+                                    <li><a href="produto.php?p=Sucos">Sucos</a></li>
+                                    <li><a href="produto.php?p=Vinhos">Vinhos</a></li>
+                                    <li><a href="produto.php?p=Alcoólicas">Alcoólicas</a></li>
+                                    <li><a href="produto.php?p=Cervejas">Cervejas</a></li>
+                                    <li><a href="produto.php?p=Energéticos">Energéticos</a></li>
                                 </ul>
                             </li>
                         </div>
+                        
                         <li>
                             <a href="contato.php">Contato</a>
                         </li>
+
                     </ul>
 
                     <div class="user">
@@ -108,7 +110,8 @@
 
             <div class="title1 wow animate__animated animate__fadeInUp">
                 <h1 class="proOUTRO wow animate__animated animate__fadeInUp"> Local e Atendimento</h1>
-                <p> <strong>Local do estabelecimento 📍 :</strong> R. Manoel Preto nº100 , Itaquá - SP <strong>Cep :</strong>
+                <p> <strong>Local do estabelecimento 📍 :</strong> R. Manoel Preto nº100 , Itaquá - SP <strong>Cep
+                        :</strong>
                     08593-130 </p>
                 <p> <strong>Horarío do atendimento 🕒 : </strong> Seg a Sex dás 10h ás 22h Sab a Dom 10h ás 00h</p>
 

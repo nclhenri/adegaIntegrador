@@ -21,7 +21,7 @@
                         <a href="sobre.php">Sobre</a>
                     </li>
                     <div>
-                        <li class="subMenu"><a href="produto.php" class="PRT">Produtos</a>
+                        <li class="subMenu"><a href="produto.php?p=Cervejas" class="PRT">Produtos</a>
                             <ul>
                                 <li><a href="produto.php?p=Gelos">Gelos</a></li>
                                 <li><a href="produto.php?p=Sucos">Sucos</a></li>
