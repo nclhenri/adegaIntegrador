@@ -191,7 +191,7 @@
             <button> <a href="produto.php">Veja nossos produtos!</a></button>
         </section>
 
-        <?php require_once('conteudo/proibido.php'); ?>
+      
 
     </main>
 

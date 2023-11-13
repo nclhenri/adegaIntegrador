@@ -25,7 +25,7 @@
             <div class="cardEnergia ">
 
                 <div>
-                    <img src="./img/jack.png" alt="">
+                    <img src="./img/alcoo1.png" alt="">
                 </div>
                 <h3>Whiskey Jack Daniels</h3>
                 <h4>R$ 139,17</h4>
@@ -36,7 +36,7 @@
 
             <div class="cardEnergia ">
                 <div>
-                    <img src="./img/jack.png" alt="">
+                    <img src="./img/alcoo2.png" alt="">
                 </div>
                 <h3>Whiskey Jack Daniels</h3>
                 <h4>R$ 139,17</h4>
@@ -47,7 +47,7 @@
 
             <div class="cardEnergia ">
                 <div>
-                    <img src="./img/jack.png" alt="">
+                    <img src="./img/alcoo3.png" alt="">
                 </div>
                 <h3>Whiskey Jack Daniels</h3>
                 <h4>R$ 139,17</h4>
@@ -58,7 +58,7 @@
 
             <div class="cardEnergia ">
                 <div>
-                    <img src="./img/jack.png" alt="">
+                    <img src="./img/alcoo4.png" alt="">
                 </div>
                 <h3>Whiskey Jack Daniels</h3>
                 <h4>R$ 139,17</h4>

@@ -50,7 +50,7 @@
                                 </ul>
                             </li>
                         </div>
-                        
+
                         <li>
                             <a href="contato.php">Contato</a>
                         </li>
@@ -195,6 +195,7 @@
 
             </div>
         </section>
+        <?php require_once('conteudo/proibido.php'); ?>
     </main>
 
 
