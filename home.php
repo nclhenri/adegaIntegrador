@@ -31,73 +31,73 @@
 
             <div class="produtosCategorias">
                 <div class="produtos">
-                    <a href="produto.php">
+                    <a href="produto.php?p=Energéticos">
                         <img src="./img/energeticos.png" alt="">
                         <h3>Energéticos</h3>
                     </a>
                 </div>
                 <div class="produtos">
-                    <a href="produto.php">
+                    <a href="produto.php?p=Sucos">
                         <img src="./img/sucos.png" alt="">
                         <h3>Sucos</h3>
                     </a>
                 </div>
                 <div class="produtos">
-                    <a href="produto.php">
+                    <a href="produto.php?p=Gelos">
                         <img src="./img/gelos.png" alt="">
                         <h3>Gelos</h3>
                     </a>
                 </div>
                 <div class="produtos">
-                    <a href="produto.php">
+                    <a href="produto.php?p=Alcoólicas">
                         <img src="./img/alcolica.png" alt="">
                         <h3>Alcoólicas</h3>
                     </a>
                 </div>
                 <div class="produtos">
-                    <a href="produto.php">
+                    <a href="produto.php?p=Cervejas">
                         <img src="./img/cervejas.png" alt="">
                         <h3>Cervejas</h3>
                     </a>
                 </div>
                 <div class="produtos">
-                    <a href="produto.php">
+                    <a href="produto.php?p=Vinhos">
                         <img src="./img/vino.png" alt="">
                         <h3>Vinhos</h3>
                     </a>
                 </div>
                 <div class="produtos">
-                    <a href="produto.php">
+                    <a href="produto.php?p=Energéticos">
                         <img src="./img/energeticos.png" alt="">
                         <h3>Energéticos</h3>
                     </a>
                 </div>
                 <div class="produtos">
-                    <a href="produto.php">
+                    <a href="produto.php?p=Sucos">
                         <img src="./img/sucos.png" alt="">
                         <h3>Sucos</h3>
                     </a>
                 </div>
                 <div class="produtos">
-                    <a href="produto.php">
+                    <a href="produto.php?p=Gelos">
                         <img src="./img/gelos.png" alt="">
                         <h3>Gelos</h3>
                     </a>
                 </div>
                 <div class="produtos">
-                    <a href="produto.php">
+                    <a href="produto.php?p=Alcoólicas">
                         <img src="./img/alcolica.png" alt="">
                         <h3>Alcoólicas</h3>
                     </a>
                 </div>
                 <div class="produtos">
-                    <a href="produto.php">
+                    <a href="produto.php?p=Cervejas">
                         <img src="./img/cervejas.png" alt="">
                         <h3>Cervejas</h3>
                     </a>
                 </div>
                 <div class="produtos">
-                    <a href="produto.php">
+                    <a href="produto.php?p=Vinhos">
                         <img src="./img/vino.png" alt="">
                         <h3>Vinhos</h3>
                     </a>
@@ -186,7 +186,7 @@
             <button> <a href="produto.php">Veja nossos produtos!</a></button>
         </section>
 
-        <?php require_once('conteudo/proibido.php'); ?>
+
 
     </main>
 
