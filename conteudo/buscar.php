@@ -1,6 +1,11 @@
-<section class="campoBuscar ">
-    <h1 class=" wow animate__animated animate__fadeInUp">Celebree momentos com as melhores bebidas.</h1>
-    <div class=" wow animate__animated animate__fadeInUp">
-        <input type="text" placeholder="🔍   Tente procurar por : cerveja, vinho, whiskey, energético...">
+<section class="campoBuscar">
+    <h1 class="wow animate__animated animate__fadeInUp">Celebre momentos com as melhores bebidas.</h1>
+    <div class="wow animate__animated animate__fadeInUp">
+        <input type="text" id="searchInput" placeholder="🔍 Tente procurar por: cerveja, vinho, whiskey, energético...">
+        <!-- <button onclick="performSearch()">Buscar</button> -->
     </div>
+    <a class="linkdosProdutos" href="https://wa.me/5511952752175?text=aprecie+sua+bebida+conosco"><div  id="searchResults" class="site promocoesEstrutura1 a" style="display: none;">
+        <!-- Resultados de pesquisa serão inseridos aqui -->
+    </div></a>
+    
 </section>

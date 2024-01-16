@@ -54,47 +54,28 @@ $pagina = @$_GET['p'];
                             </li>
                         </ul>
 
-                        <div class="user">
-                            <img class=" wow animate__animated animate__fadeInUp" src="./img/user.png" alt="">
-                        </div>
                     </nav>
-
-                    <div class="user2">
-                        <img class=" wow animate__animated animate__fadeInUp" src="./img/user.png" alt="">
+                    <div class="carro wow animate__animated animate__fadeInUp">
+                        <img src="./img/carrinho.png" alt="">
                     </div>
-
                 </div>
             </div>
         </header>
 
-        <section class="campoBuscar3 ">
-            <div class=" input2 wow animate__animated animate__fadeInUp">
-                <input type="text" placeholder="🔍     Tente procurar por: cerveja, vinho, whiskey, energético... ">
-            </div>
-            <div class="carro wow animate__animated animate__fadeInUp">
-                <div>
-                    <h2 class="text-center"> <span id="totalValue">$ 0,00</span></h2>
-                    <img src="./img/carrinho.png" alt="">
-                </div>
-
-            </div>
-
-        </section>
-
         <main class="duplo">
             <aside>
 
-                <a href="produto.php?p=Cervejas"class="<?php echo (@$_GET['p'] == 'Cervejas') ? 'menuAtivo' : ''; ?>">Cervejas</a>
+                <a href="produto.php?p=Cervejas" class="<?php echo (@$_GET['p'] == 'Cervejas') ? 'menuAtivo' : ''; ?>">Cervejas</a>
 
-                <a href="produto.php?p=Alcoólicas"class="<?php echo (@$_GET['p'] == 'Alcoólicas') ? 'menuAtivo' : ''; ?>">Alcoólicas</a>
+                <a href="produto.php?p=Alcoólicas" class="<?php echo (@$_GET['p'] == 'Alcoólicas') ? 'menuAtivo' : ''; ?>">Alcoólicas</a>
 
                 <a href="produto.php?p=Vinhos" class="<?php echo (@$_GET['p'] == 'Vinhos') ? 'menuAtivo' : ''; ?>">Vinhos</a>
 
-                <a href="produto.php?p=Energéticos"class="<?php echo (@$_GET['p'] == 'Energéticos') ? 'menuAtivo' : ''; ?>">Energéticos</a>
+                <a href="produto.php?p=Energéticos" class="<?php echo (@$_GET['p'] == 'Energéticos') ? 'menuAtivo' : ''; ?>">Energéticos</a>
 
-                <a href="produto.php?p=Sucos"class="<?php echo (@$_GET['p'] == 'Sucos') ? 'menuAtivo' : ''; ?>">Sucos</a>
+                <a href="produto.php?p=Sucos" class="<?php echo (@$_GET['p'] == 'Sucos') ? 'menuAtivo' : ''; ?>">Sucos</a>
 
-                <a href="produto.php?p=Gelos"class="<?php echo (@$_GET['p'] == 'Gelos') ? 'menuAtivo' : ''; ?>">Gelos</a>
+                <a href="produto.php?p=Gelos" class="<?php echo (@$_GET['p'] == 'Gelos') ? 'menuAtivo' : ''; ?>">Gelos</a>
 
             </aside>
 

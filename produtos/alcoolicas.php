@@ -10,8 +10,7 @@
     <link rel="stylesheet" type="text/css" href="./css/slick.css" />
     <link rel="stylesheet" type="text/css" href="./css/slick-theme.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="responsivo.css">
@@ -27,8 +26,8 @@
                 <div>
                     <img src="./img/alcoo1.png" alt="">
                 </div>
-                <h3>Whiskey Jack Daniels</h3>
-                <h4>R$ 139,17</h4>
+                <h3>Gin Torquay - 740ml</h3>
+                <h4>R$ 79,89</h4>
                 <div class="fundoComprar">
                     <a href="produto.php">Comprar</a>
                 </div>
@@ -38,8 +37,8 @@
                 <div>
                     <img src="./img/alcoo2.png" alt="">
                 </div>
-                <h3>Whiskey Jack Daniels</h3>
-                <h4>R$ 139,17</h4>
+                <h3>Absolut Vodka- 4500ml</h3>
+                <h4> R$ 71,57</h4>
                 <div class="fundoComprar">
                     <a href="produto.php">Comprar</a>
                 </div>
@@ -49,8 +48,8 @@
                 <div>
                     <img src="./img/alcoo3.png" alt="">
                 </div>
-                <h3>Whiskey Jack Daniels</h3>
-                <h4>R$ 139,17</h4>
+                <h3>Licor 43 Diego Zamora - 700 Ml</h3>
+                <h4>R$ 72,92</h4>
                 <div class="fundoComprar">
                     <a href="produto.php">Comprar</a>
                 </div>
@@ -60,8 +59,8 @@
                 <div>
                     <img src="./img/alcoo4.png" alt="">
                 </div>
-                <h3>Whiskey Jack Daniels</h3>
-                <h4>R$ 139,17</h4>
+                <h3>51 pirassununga - 965ml</h3>
+                <h4>R$ 197,88 </h4>
                 <div class="fundoComprar">
                     <a href="produto.php">Comprar</a>
                 </div>
@@ -88,9 +87,7 @@
         </nav>
     </main>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
     <script src="./js/slick.min.js"></script>
     <script src="js/wow.min.js"></script>

@@ -23,11 +23,11 @@
         <div class="site promocoesEstrutura1 a">
             <div class="cardEnergia ">
                 <div>
-                    <img src="./img/redbull.png" alt="">
+                    <img src="./img/gelo.png" alt="">
                 </div>
 
-                <h3>RedBull - 250ml</h3>
-                <h4>R$ 7,12</h4>
+                <h3>Gelo - 10kg</h3>
+                <h4>R$ 12,90</h4>
                 <div class="fundoComprar1">
                     <a href="">Comprar</a>
                 </div>
