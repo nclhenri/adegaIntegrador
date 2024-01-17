@@ -33,6 +33,9 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 10px;
+    width: 155%;
+    margin-left: -27%;
+
 }
 
 .menu {
@@ -88,13 +91,14 @@ header {
 .menu ul li a {
     text-decoration: none;
     color: #F2C84B;
-    font-size: 21px;
+    font-size: 24px;
     text-transform: uppercase;
 }
 
 .menu ul li a:hover {
     color: #ffedb5;
-   
+    border-bottom: 3px solid #ffedb5;
+    transition: 0.1s ease;
 }
 
 .user {
@@ -116,7 +120,7 @@ header {
 .campoBuscar {
     width: 100%;
     background-color: black;
-    padding: 130px 245px 130px;
+    padding: 190px 245px 130px;
     background: url(./img/bannertaligado2.png);
 }
 
@@ -125,7 +129,7 @@ header {
     justify-content: center;
     color: #F2E852;
     border: 3px solid #F2E852;
-    width: 54%;
+    width: 50%;
     margin: 0 auto;
     border-radius: 5px;
     padding: 10px;
@@ -135,7 +139,7 @@ header {
 .campoBuscar div {
     display: flex;
     justify-content: center;
-    margin-top: 8px;
+    margin-top: 6px;
 }
 
 .campoBuscar div button {
@@ -743,8 +747,8 @@ div:where(.swal2-container) .swal2-html-container {
     justify-content: space-between;
 }
 .carro img {
-    width: 35%;
-   margin-top: -35px;
+    width: 68%;
+    margin-top: -6px;
 
 }
 .carro {
@@ -845,7 +849,7 @@ aside a {
     display: flex;
     justify-content: space-between;
     margin-top: 4%;
-    margin-left: 1%;
+    margin-left: 8%;
 }
 
 .cardEnergia h4 {

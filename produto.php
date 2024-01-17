@@ -27,40 +27,9 @@ $pagina = @$_GET['p'];
 <body>
 
     <body>
-        <header>
-            <div class="site">
-                <div class="header ">
-                    <div class="logoTamanho  wow animate__animated animate__fadeInUp">
-                        <img class=" wow animate__animated animate__fadeInUp" src="./img/logo.png" alt="">
-                    </div>
 
-                    <button class="abrirMenu"></button>
-                    <nav class="menu">
 
-                        <button class="fecharMenu"></button>
-                        <ul>
-                            <li>
-                                <a href="home.php">Home</a>
-                            </li>
-                            <li>
-                                <a href="sobre.php">Sobre</a>
-                            </li>
-
-                            <li>
-                                <a href="produto.php?p=Cervejas" class="PRT">Produtos</a>
-                            </li>
-                            <li>
-                                <a href="contato.php">Contato</a>
-                            </li>
-                        </ul>
-
-                    </nav>
-                    <div class="carro wow animate__animated animate__fadeInUp">
-                        <img src="./img/carrinho.png" alt="">
-                    </div>
-                </div>
-            </div>
-        </header>
+        <?php require_once('conteudo/header.php'); ?>   
 
         <main class="duplo">
             <aside>
