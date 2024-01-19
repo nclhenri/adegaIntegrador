@@ -38,13 +38,15 @@
                 </ul>
 
                 <div class="user">
-                    <img class=" wow animate__animated animate__fadeInUp" src="./img/user.png" alt="">
+                    <a href="formLogin.php">
+                        <img class=" wow animate__animated animate__fadeInUp" src="./img/user.png" alt="">
+                    </a>
                 </div>
             </nav>
 
-            <div class="user2">
+            <a href="formLogin.php">
                 <img class=" wow animate__animated animate__fadeInUp" src="./img/user.png" alt="">
-            </div>
+            </a>
 
         </div>
     </div>

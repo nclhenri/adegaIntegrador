@@ -15,10 +15,48 @@
   }
 }
 
+
+@media (max-width: 575px) {
+
+  .cardEnergia div {
+
+    width: 144px !important;
+  }
+  .cardEnergia {
+    width: 33% !important;
+  }
+
+}
+
+@media (max-width: 535px) {
+  aside a {
+    font-size: 17px !important;
+  }
+
+  cardEnergia div {
+    width: 95px !important;
+
+  }
+
+  .cardEnergia {
+    width: 30% !important;
+  }
+
+  .cardEnergia div {
+    width: 117px !important;
+  }
+
+}
+
+
+
+
+
 @media (max-width: 495px) {
   aside a {
     font-size: 18px !important;
   }
+
   .cardEnergia {
     padding: 5px !important;
     margin-right: 9% !important;
@@ -28,10 +66,12 @@
   .cardEnergia h3 {
     font-size: 0.7em !important;
   }
+
   .cardEnergia div {
     width: 115px !important;
     margin-left: 25px !important;
   }
+
   aside {
     border: none !important;
     margin-bottom: 30px !important;
@@ -48,17 +88,20 @@
     margin-right: 7% !important;
     margin-left: 27px !important;
   }
+
   .cardEnergia {
     width: 33% !important;
   }
+
   .cardEnergia div {
     width: 110px !important;
     margin-left: 14px !important;
   }
+
   .header {
     width: 105%;
-    
-}
+
+  }
 
 
 }
@@ -73,6 +116,7 @@
   .card h3 {
     font-size: 0.9em;
   }
+
   .card {
     width: 60%;
   }
@@ -96,6 +140,7 @@
     width: 161px;
     height: 200px;
   }
+
   .promocoesEstrutura1 {
     width: 100%;
     flex-wrap: wrap;
@@ -107,6 +152,7 @@
     margin-bottom: 40px;
     border: none;
   }
+
   aside {
     border: none !important;
     padding: 40px 5px 0px;
@@ -411,7 +457,7 @@
 }
 
 @media (max-width: 320px) {
-  div:where(.swal2-container).swal2-center > .swal2-popup {
+  div:where(.swal2-container).swal2-center>.swal2-popup {
     padding: 0px !important;
     padding-bottom: 10px !important;
   }

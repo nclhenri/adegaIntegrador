@@ -901,3 +901,73 @@ aside a {
     font-weight: bold;
 }
 
+.fotoLogin img{
+ 
+    width: 100%;
+}
+.form-control {
+
+    width: 80%;
+}
+.formulario{
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+.fundo {
+    background: #000000;
+    padding: 66px 0px 91px 0px;;
+}
+form {
+    background: #ffe185;
+    padding: 25px 25px 70px 25px;
+}
+
+.fundo img {
+    width: 30%;
+    border: 5px solid #F2C84B;
+    border-radius: 217px;
+    padding: 40px;
+}
+.imglogoForm{
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.mb-5 {
+    margin-bottom: 1.5rem!important;
+    margin-left: 125px;
+}
+.btnlogin {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.btnlogin button {
+    width: 20%;
+    padding: 10px;
+    background: #F2C84B !important;
+    border: none !important;
+    font-size: 1.5em;
+}
+
+.btnlogin button:hover {
+    background: #ffe79f !important;
+    color: #000000;
+    transition: 0.5s ease;
+    
+} 
+.sair {
+    border: 3px solid;
+    padding: 0px 9px;
+    border-radius: 40px;
+} 
+
+form a {
+   color: #000000;
+}
+
+
