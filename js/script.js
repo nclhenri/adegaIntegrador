@@ -99,10 +99,10 @@ function performSearch() {
     { name: "Brahma 350 ml", price: "R$ 9,17" },
     { name: "Budweiser 269 ml", price: "R$ 2,88" },
     { name: "Gelo - 10kg", price: "R$ 12,90" },
-    { name: "Absolut Vodka- 4500ml", price: "R$ 71,57" },
+    { name: "Vodka- 4500ml", price: "R$ 71,57" },
     { name: "Gin Torquay - 740ml", price: "R$ 79,89" },
     { name: "Licor 43 - 700 Ml", price: "R$ 72,92" },
-    { name: "51 pirassununga - 965ml", price: "R$ 197,88" }
+    { name: "51 - 965ml", price: "R$ 197,88" }
     // Adicione mais produtos conforme necessário
   ];
 

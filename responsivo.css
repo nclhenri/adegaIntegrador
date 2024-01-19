@@ -15,6 +15,54 @@
   }
 }
 
+@media (max-width: 495px) {
+  aside a {
+    font-size: 18px !important;
+  }
+  .cardEnergia {
+    padding: 5px !important;
+    margin-right: 9% !important;
+    align-items: center !important;
+  }
+
+  .cardEnergia h3 {
+    font-size: 0.7em !important;
+  }
+  .cardEnergia div {
+    width: 115px !important;
+    margin-left: 25px !important;
+  }
+  aside {
+    border: none !important;
+    margin-bottom: 30px !important;
+  }
+}
+
+@media (max-width: 430px) {
+  aside a {
+    font-size: 16px !important;
+  }
+
+  .cardEnergia {
+    padding: 7px !important;
+    margin-right: 7% !important;
+    margin-left: 27px !important;
+  }
+  .cardEnergia {
+    width: 33% !important;
+  }
+  .cardEnergia div {
+    width: 110px !important;
+    margin-left: 14px !important;
+  }
+  .header {
+    width: 105%;
+    
+}
+
+
+}
+
 /* Responsivo SmartPhone 320 a 600 */
 
 @media (max-width: 600px) {
@@ -60,6 +108,7 @@
     border: none;
   }
   aside {
+    border: none !important;
     padding: 40px 5px 0px;
     width: 100%;
     flex-direction: row;
