@@ -133,11 +133,11 @@ if (isset($_POST['email'])) {
 
 
                         <div class="caixas1 wow animate__animated animate__fadeInUp">
-                            <form action="#" method="POST">
+                            <form action="#" method="POST" onsubmit="verificar()">
                                 <div class="caixas">
                                     <div>
                                         <label for="nome">Nome :</label>
-                                        <input type="text" name="nome" id="nome" placeholder="Informe seu nome : "
+                                        <input type="text" placeholder="Informe seu nome : " name="nomeCadastro" id="nomeCadastro" placeholder="nome"
                                             required>
                                     </div>
 
@@ -149,7 +149,7 @@ if (isset($_POST['email'])) {
 
                                     <div>
                                         <label for="fone">Telefone :</label>
-                                        <input type="tel" name="fone" id="fone" placeholder="Informe seu telefone : ">
+                                        <input type="tel" placeholder="Informe seu telefone : " id="telefone" placeholder="telefone" maxlength="15" onkeyup="handlePhone(event)">
                                     </div>
                                 </div>
 

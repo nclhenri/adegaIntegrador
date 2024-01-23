@@ -148,3 +148,28 @@ function performSearch() {
 
 // Adiciona um ouvinte de eventos para detectar alterações na barra de pesquisa
 document.getElementById('searchInput').addEventListener('input', performSearch);
+
+const handlePhone = (event) => {
+  let input = event.target
+  input.value = phoneMask(input.value)
+}
+
+const phoneMask = (value) => {
+  if (!value) return ""
+  value = value.replace(/\D/g, '')
+  value = value.replace(/(\d{2})(\d)/, "($1) $2")
+  value = value.replace(/(\d)(\d{4})$/, "$1-$2")
+  return value
+}
+
+const inputName = document.querySelector('#nomeCadastro');
+
+inputName.addEventListener('keypress', function (e) {
+   const keyCode = (e.keyCode ? e.keyCode : e.wich);
+
+   if (keyCode > 47 && keyCode < 58) {
+      e.preventDefault();
+
+   }
+
+});
