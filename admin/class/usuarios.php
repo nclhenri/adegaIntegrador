@@ -31,4 +31,3 @@ class UsuarioClass
         return $lista;
     }
 }
-?>
