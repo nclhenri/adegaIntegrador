@@ -1,5 +1,5 @@
 <?php 
-$paginaAtual = @$_GET['c'];
+$paginaAtual = @$_GET['u'];
 
 if ($paginaAtual == '') {
     require_once ('listar.php');
