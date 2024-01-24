@@ -41,6 +41,8 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: black;
+    height: 100vh;
 }
 main h1{
     color: #F2C84B;
@@ -56,4 +58,15 @@ main h1{
 }
 .ajusteTabela table{
     width: 100%;
+    border-color: black !important;
+}
+.novoCliente{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-bottom: 15px;
+    width: 100%;
+}
+.ajusteTabela table thead tr th{
+    background-color: #F2C84B;
 }

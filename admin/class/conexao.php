@@ -1,5 +1,4 @@
 <?php 
-
 class Conexao{
 
     public static function LigarConexao(){
@@ -10,5 +9,4 @@ class Conexao{
     }
 
 }
-
 ?>
