@@ -46,7 +46,7 @@ main{
     flex-direction: column;
     align-items: center;
     background-color: black;
-    height: 75vh;
+    height: auto;
 }
 main h1{
     color: #F2C84B;
@@ -72,5 +72,15 @@ main h1{
     width: 100%;
 }
 .ajusteTabela table thead tr th{
+    background-color: black;
+}
+.ajusteTabela{
     background-color: #F2C84B;
+    padding: 15px 15px 2px 15px;
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 30px !important;
+}
+.ajusteTabela th{
+    color: #F2C84B !important;
 }

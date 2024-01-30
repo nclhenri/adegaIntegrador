@@ -30,4 +30,12 @@ class UsuarioClass
         $lista = $resultado->fetchAll();
         return $lista;
     }
+
+    public function Desativar()
+    {
+        $sql = "UPDATE usuarios SET statusUsuario = 'DESATIVADO' WHERE idUsuario = $this->idUsuario";
+        $connect = Conexao::LigarConexao();
+        $connect->exec($sql);
+        echo"<script> document.location = 'index.php?p=clientes'; </script>";
+    }
 }
