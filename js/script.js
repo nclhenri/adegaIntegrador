@@ -162,7 +162,7 @@ const phoneMask = (value) => {
   return value
 }
 
-const inputName = document.querySelector('#nomeCadastro');
+const inputName = document.querySelector('#nome');
 
 inputName.addEventListener('keypress', function (e) {
    const keyCode = (e.keyCode ? e.keyCode : e.wich);

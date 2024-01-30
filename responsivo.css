@@ -38,6 +38,11 @@
   }
 
   .cardEnergia div {
+
+@media (max-width: 575px) {
+
+  .cardEnergia div {
+
     width: 144px !important;
   }
   .cardEnergia {
@@ -52,12 +57,17 @@
   .usez {
     display: none;
   }
+
+}
+
+@media (max-width: 535px) {
   aside a {
     font-size: 17px !important;
   }
 
   cardEnergia div {
     width: 95px !important;
+
   }
 
   .cardEnergia {
@@ -81,6 +91,14 @@
     display: none;
   }
 
+
+}
+
+
+
+
+
+@media (max-width: 495px) {
   aside a {
     font-size: 18px !important;
   }
@@ -98,6 +116,7 @@
   .cardEnergia div {
     width: 115px !important;
     margin-left: 10px !important;
+    margin-left: 25px !important;
   }
 
   aside {
@@ -141,6 +160,10 @@
   .header {
     width: 105%;
   }
+
+  }
+
+
 }
 
 /* Responsivo SmartPhone 320 a 600 */
@@ -369,6 +392,7 @@
 
   .campoBuscar {
     padding: 120px 0px 270px;
+    padding: 120px 0px;
   }
 
   .campoBuscar h1 {
@@ -506,6 +530,11 @@
 
 @media (max-width: 320px) {
   div:where(.swal2-container).swal2-center > .swal2-popup {
+    padding: 0px !important;
+    padding-bottom: 10px !important;
+  }
+}
+  div:where(.swal2-container).swal2-center>.swal2-popup {
     padding: 0px !important;
     padding-bottom: 10px !important;
   }
