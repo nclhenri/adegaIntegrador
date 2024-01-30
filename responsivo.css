@@ -15,6 +15,29 @@
   }
 }
 
+@media (max-width: 585px) {
+  .campoBuscar {
+    padding: 120px 0px 290px !important;
+  }
+ 
+  .usez {
+    display: none;
+  }
+  .cardEnergia {
+    width: 33% !important;
+    padding: 12px !important;
+    margin-right: 9% !important ;
+  }
+}
+@media (max-width: 575px) {
+  .campoBuscar {
+    padding: 120px 0px 285px !important;
+  }
+  .usez {
+    display: none;
+  }
+
+  .cardEnergia div {
 
 @media (max-width: 575px) {
 
@@ -24,6 +47,15 @@
   }
   .cardEnergia {
     width: 33% !important;
+  }
+}
+
+@media (max-width: 535px) {
+  .campoBuscar {
+    padding: 120px 0px 280px !important;
+  }
+  .usez {
+    display: none;
   }
 
 }
@@ -45,6 +77,20 @@
   .cardEnergia div {
     width: 117px !important;
   }
+}
+
+@media (max-width: 485px) {
+  .campoBuscar {
+    padding: 120px 0px 275px !important;
+  }
+  .fundo img {
+    width: 35% !important;
+  }
+
+  .usez {
+    display: none;
+  }
+
 
 }
 
@@ -69,6 +115,7 @@
 
   .cardEnergia div {
     width: 115px !important;
+    margin-left: 10px !important;
     margin-left: 25px !important;
   }
 
@@ -79,6 +126,18 @@
 }
 
 @media (max-width: 430px) {
+  .campoBuscar {
+    padding: 120px 0px 270px !important;
+  }
+  .mb-5 {
+    margin-left: 60px !important;
+  }
+  .fundo img {
+    width: 40% !important;
+  }
+  .usez {
+    display: none;
+  }
   aside a {
     font-size: 16px !important;
   }
@@ -100,6 +159,7 @@
 
   .header {
     width: 105%;
+  }
 
   }
 
@@ -109,6 +169,17 @@
 /* Responsivo SmartPhone 320 a 600 */
 
 @media (max-width: 600px) {
+ 
+  .mb-5 {
+    margin-left: 85px !important;
+  }
+
+  .sair {
+    margin-bottom: 10px;
+  }
+  .usez {
+    display: none;
+  }
   .menuAtivo {
     border-bottom: 2px solid #fff2c4;
   }
@@ -320,6 +391,7 @@
   /* Campo busca */
 
   .campoBuscar {
+    padding: 120px 0px 270px;
     padding: 120px 0px;
   }
 
@@ -457,6 +529,11 @@
 }
 
 @media (max-width: 320px) {
+  div:where(.swal2-container).swal2-center > .swal2-popup {
+    padding: 0px !important;
+    padding-bottom: 10px !important;
+  }
+}
   div:where(.swal2-container).swal2-center>.swal2-popup {
     padding: 0px !important;
     padding-bottom: 10px !important;

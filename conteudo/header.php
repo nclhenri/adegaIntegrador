@@ -43,7 +43,7 @@
                 </div>
             </nav>
 
-            <a href="formLogin.php">
+            <a href="formLogin.php" class="usez">
                 <img class=" wow animate__animated animate__fadeInUp" src="./img/user.png" alt="">
             </a>
 

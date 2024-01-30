@@ -106,7 +106,7 @@ $paginaAtual = @$_GET['p'];
                     echo 'Compras';
                     break;
                 case 'email':
-                    echo 'E-mail';
+                    require_once('contato/email.php');
                     break;
                 case 'ajuda':
                     echo 'Ajuda & Suporte';
